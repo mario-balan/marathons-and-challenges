@@ -1,0 +1,5 @@
+a = int(raw_input())
+b = int(raw_input())
+c = float("{0:.2f}".format(input()))
+print 'NUMBER = {}'.format(a)
+print 'SALARY = U$ {0:.2f}'.format(b * c)
